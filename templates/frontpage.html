@@ -1,0 +1,32 @@
+{% extends "master.html" %}
+
+{% block head %}
+<title>New Image Search</title>
+{% endblock %}
+
+{% block content %}
+
+<div class="row">
+	<div class="span12">
+
+	<h1>This is going to be awesome.  Just you wait.</h1>
+	
+	<p>To search an image enter a keyword and if you have an idea for a site that many contain good pictures enter it.<br>
+		For multiple keywords, URLs just separate them with a comma.<br>
+		Keywords are required but URLs aren't.</p>
+	
+	<form method="get">	
+		<input type="text" placeholder="Keywords" style="width:250px; height: 30px;" name="keywords" size="55" /><br><br>
+		
+		<input type="text" placeholder="URLs" style="width:250px; height: 30px;" name="url_list" size="55" /><br><br>
+		    
+	  	<input class="btn btn-large pull-left" type="submit"> <br><br>
+	</form>
+	
+	<p>Some suggestions are specialty sites - like motorcycles? try http://www.motorcycle-usa.com. Or for general topics try www.reddit.com/[keyword]
+	or www.imgur.com/[keyword] or one of the best is http://commons.wikimedia.org/wiki/[keyword]. </p>
+
+	</div>
+</div>
+
+{% endblock %}

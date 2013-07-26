@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>    
+  
+	<!-- Google webmaster code -->  
+  	<meta name="google-site-verification" content="njIfthlxJhZ0-3n9imOpY6hHPUfZ0nL6By1_LwuKAy4" />
+    
+     <!--google analytics code*-->
+     <script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-37350807-1']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	
+	</script>
+ 
+    
+    <!-- bing/msn webmaster code -->
+    <meta name="msvalidate.01" content="12DF2593A5EA0EBD65F9A230C117394A" />
+
+    <!-- Le styles -->
+    <link href="/static/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+    </style>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="static/img/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="static/img/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="static/img/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="static/img/ico/apple-touch-icon-57-precomposed.png">
+    
+    <link rel="shortcut icon" href="/static/img/favicon.ico">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Patrick Gray">
+    
+    {% block head %}
+    
+    {% endblock %}
+  </head>
+
+  <body onload="initialize()">
+	<div class="mastercontainer">
+
+  <div class="container">
+  
+  <div style="margin-top: 10px;"></div>
+  
+      	{% block content %}
+
+		{% endblock %}
+
+      <hr>
+      
+      	<div class="row">
+	        	<div class="span12">
+		        	<h4>
+		        		<div class="center-it">&copy; New Image Search - We're trying something new here.  Let me know if you like it.</div>
+		        	</h4>
+	        	</div>
+        </div>
+        
+</div> <!-- /container -->
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  	<script type="text/javascript" src="/static/js/bootstrap.js"></script>
+    
+	</div>
+  </body>
+</html>

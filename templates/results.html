@@ -1,0 +1,27 @@
+{% extends "master.html" %}
+
+{% block head %}
+<title>Your Splendid Results</title>
+{% endblock %}
+
+{% block content %}
+
+	{% for image in img_list %}
+		<div class="row">
+		
+		  	<div class="span8">
+			   		<div class="center-it">
+			   			
+			   				<br><img src="{{image}}">
+			   		
+			   		</div>
+		  	</div>
+		  	
+		  	<div class="span4">
+		  			<h5>Link is: <a href="{{image}}">{{image}}</a></h5>
+		  	</div>
+		  	
+		</div>
+	{% endfor %}
+
+{% endblock %}
