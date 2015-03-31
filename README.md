@@ -25,3 +25,10 @@ That is all I need you to do but just for your information when I do my current 
 in my database and if not I create an entry.  I can take care of that so don't worry about it but I just wanted to let you know of the way I currently have it set up.
 
 Let me know if you have any further questions.
+=======
+newimagesearch
+===
+
+A Google App Engine project I built to test out some web scraping ideas and new ways to find images online.
+
+Check out a working example here: http://newimagesearch.appspot.com/
